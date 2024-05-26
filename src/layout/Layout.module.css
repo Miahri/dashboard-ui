@@ -1,0 +1,16 @@
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 240px;
+    background-color: #f5f4f9;
+    transition: margin-left 0.3s;
+    padding: 0;
+    height: calc(100% - 40px);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.sideBarClosed {
+    margin: 0;
+}

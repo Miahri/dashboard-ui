@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.activityItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f5f4f9;
+    width: 80px;
+    height: 80px;
+    padding: 0 15px;
+    color: #212A34;
+    border-radius: 5px;
+}
+
+.bar {
+    width: 4px;
+    height: 35px;
+    background-color: #5954AF;
+    margin-right: 5px;
+}

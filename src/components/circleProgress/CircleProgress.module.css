@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #212A34;
+}
+
+.innerCircle {
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 0 15px 10px lightgray;
+}
+
+.outerCircle {
+    width: 180px;
+    height: 180px;
+    background-color: #f5f4f9;
+    z-index: 1;
+}

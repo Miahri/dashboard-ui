@@ -1,0 +1,26 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 60px;
+    color: #212A34;
+    margin-left: 15px;
+}
+
+.topSkills {
+    height: 50px;
+}
+
+.itemIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.topSkillsIcon {
+    width: 30px;
+    height: 30px
+}
