@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/dashboard-ui/static/css/main.cee24a50.css",
+    "main.js": "/dashboard-ui/static/js/main.9de66579.js",
+    "static/js/453.55d6dd92.chunk.js": "/dashboard-ui/static/js/453.55d6dd92.chunk.js",
+    "static/media/404.svg": "/dashboard-ui/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/team.svg": "/dashboard-ui/static/media/team.32de25441d6abcd5c097527da3d15d39.svg",
+    "static/media/photo10.jpg": "/dashboard-ui/static/media/photo10.5d9ea4bcce8c5bfa06e0.jpg",
+    "static/media/avatar.jpg": "/dashboard-ui/static/media/avatar.cab076cc8b07085cb435.jpg",
+    "static/media/photo8.jpg": "/dashboard-ui/static/media/photo8.135b59f5d5e1c67e330e.jpg",
+    "static/media/photo9.jpg": "/dashboard-ui/static/media/photo9.ea14b22f6307b0784107.jpg",
+    "static/media/photo11.jpg": "/dashboard-ui/static/media/photo11.8f9cbc7edfa2614d6bbd.jpg",
+    "static/media/photo7.jpg": "/dashboard-ui/static/media/photo7.4f629f244c5d5dba6956.jpg",
+    "static/media/photo2.jpg": "/dashboard-ui/static/media/photo2.06e9a1f061e09a1589a5.jpg",
+    "static/media/photo5.jpg": "/dashboard-ui/static/media/photo5.c1687e16d23066dd1029.jpg",
+    "static/media/photo3.jpg": "/dashboard-ui/static/media/photo3.3fb966704101cb328e72.jpg",
+    "static/media/photo1.jpg": "/dashboard-ui/static/media/photo1.0e2f9966f7922b0e3874.jpg",
+    "static/media/photo6.jpg": "/dashboard-ui/static/media/photo6.7e958287c92346d32214.jpg",
+    "static/media/photo12.jpg": "/dashboard-ui/static/media/photo12.0a25ec67814603ff37b8.jpg",
+    "static/media/photo4.jpg": "/dashboard-ui/static/media/photo4.e85e6db1d62568c0774c.jpg",
+    "static/media/skill4.svg": "/dashboard-ui/static/media/skill4.8b64b21b7a5e7e9a49c792d2fd563b2d.svg",
+    "static/media/skill1.svg": "/dashboard-ui/static/media/skill1.4be485b8e0b6ba7e594739a9481f9804.svg",
+    "static/media/skill5.svg": "/dashboard-ui/static/media/skill5.c5457c1ddd4f01b7a2e4d260f47abed2.svg",
+    "static/media/skill2.svg": "/dashboard-ui/static/media/skill2.462e1507c2c00036caa22fd7e718e0e1.svg",
+    "static/media/score.svg": "/dashboard-ui/static/media/score.b32e88be5b3bc3342155b38674efc3e0.svg",
+    "static/media/employees.svg": "/dashboard-ui/static/media/employees.7239c7c656a5a6ee89e4eba1ea58b0ef.svg",
+    "static/media/support.svg": "/dashboard-ui/static/media/support.4a83691fdb445513c74ba44208261610.svg",
+    "static/media/skill3.svg": "/dashboard-ui/static/media/skill3.333d620c8200673e699e1753ea920799.svg",
+    "static/media/documents.svg": "/dashboard-ui/static/media/documents.9bca765569f6e60cf16dd7e7865755d6.svg",
+    "static/media/courses.svg": "/dashboard-ui/static/media/courses.65f327f7f648d58a6505a96d6123280d.svg",
+    "static/media/notification4.svg": "/dashboard-ui/static/media/notification4.3cfa3385e883724ce2f67f3c8bc0104b.svg",
+    "static/media/dashboard.svg": "/dashboard-ui/static/media/dashboard.3cdb2ff5538a01938761cbab706f7f54.svg",
+    "index.html": "/dashboard-ui/index.html",
+    "main.cee24a50.css.map": "/dashboard-ui/static/css/main.cee24a50.css.map",
+    "main.9de66579.js.map": "/dashboard-ui/static/js/main.9de66579.js.map",
+    "453.55d6dd92.chunk.js.map": "/dashboard-ui/static/js/453.55d6dd92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee24a50.css",
+    "static/js/main.9de66579.js"
+  ]
+}
