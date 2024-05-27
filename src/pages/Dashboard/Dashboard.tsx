@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import s from './Dashboard.module.css';
-import {EmployeeCard} from "./employeeCard/EmployeeCard";
+import {EmployeeCard} from "../../common/employeeCard/EmployeeCard";
 import {CalendarComponent} from "../../components/calendar/CalendarComponent";
-import {ItemWithIcon} from "./itemWithIcon/ItemWithIcon";
+import {ItemWithIcon} from "../../common/itemWithIcon/ItemWithIcon";
 import {useSelector} from "react-redux";
 import {AppRootStateType} from "../../utils/types";
 import {useActions} from "../../utils/redux-utils";

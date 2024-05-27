@@ -10,25 +10,6 @@
     font-size: 15px;
 }
 
-.progressData {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.activityData {
-    width: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-}
-
 .addEmployee {
     background-color: #f5f4f9;
     width: 100px;
@@ -39,4 +20,13 @@
     text-align: left;
     border-color: #5954AF;
     font-size: 16px;
+}
+
+.activityData {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
 }

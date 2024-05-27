@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import s from './EmployeeCard.module.css';
 import LinearProgress from "@mui/joy/LinearProgress";
+import c from '../../styles/CommonStyles.module.css';
 
 type PropsType = {
   id: string
@@ -20,7 +21,7 @@ export const EmployeeCard: FC<PropsType> = (props) => {
         id={'avatar-img'}
         alt={'open drop-down'}
       />
-      <p className={s.name}>{props.name}</p>
+      <p className={c.name}>{props.name}</p>
       <p className={s.email}>{props.email}</p>
       <div style={{display: 'flex', flexDirection: "row", alignItems: 'center', width: '160px'}}>
         <LinearProgress color="neutral" variant="soft" determinate value={(props.current_score / 5) * 100}/>

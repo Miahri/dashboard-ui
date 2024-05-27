@@ -2,8 +2,9 @@ import * as React from 'react';
 import s from './ActivityHoursData.module.css';
 import {FC} from "react";
 import {ActivityHourType} from "../../../api/types";
-import {ItemWithBar} from "../itemWithBar/ItemWithBar";
+import {ItemWithBar} from "../../../common/itemWithBar/ItemWithBar";
 import {CircleProgress} from "../../../components/circleProgress/CircleProgress";
+import c from '../../../styles/CommonStyles.module.css';
 
 type PropsType = {
   foundObject: ActivityHourType | null
@@ -12,7 +13,7 @@ type PropsType = {
 export const ActivityHoursData: FC<PropsType> = ({foundObject}) => {
 
   return (
-    <div className={s.progressData}>
+    <div className={c.progressData}>
       {!foundObject ? <p>No data found</p>
         : <>
           <CircleProgress value={foundObject.lessons_taken} label={"LESSONS"}/>

@@ -1,8 +1,9 @@
 import React, {FC} from 'react';
 import s from "./TeamInfo.module.css";
 import {CircleProgress} from "../../../components/circleProgress/CircleProgress";
-import {ItemWithBar} from "../../Dashboard/itemWithBar/ItemWithBar";
+import {ItemWithBar} from "../../../common/itemWithBar/ItemWithBar";
 import {TeamsWithIdType} from "../../../api/types";
+import c from '../../../styles/CommonStyles.module.css';
 
 type PropsType = {
   selectedTeamData: TeamsWithIdType
@@ -13,7 +14,7 @@ export const TeamInfo: FC<PropsType> = ({selectedTeamData}) => {
     <>
       <h3>{selectedTeamData.title}</h3>
       <div className={s.divider}></div>
-      <div className={s.progressData}>
+      <div className={c.progressData}>
         <CircleProgress value={selectedTeamData.overall_score}
                         label={"Score"}/>
         <div className={s.activityData}>

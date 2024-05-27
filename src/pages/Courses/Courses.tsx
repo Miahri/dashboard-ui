@@ -6,7 +6,7 @@ import {CoursesPageType} from "./courses-reducer";
 import {coursesActions} from "./index";
 import s from './Courses.module.css';
 import {SelectComponent} from "../../components/select/SelectComponent";
-import {ItemWithIcon} from "../Dashboard/itemWithIcon/ItemWithIcon";
+import {ItemWithIcon} from "../../common/itemWithIcon/ItemWithIcon";
 import skill1 from "../../images/skill1.svg";
 import skill2 from "../../images/skill2.svg";
 import skill3 from "../../images/skill3.svg";
@@ -14,6 +14,7 @@ import skill4 from "../../images/skill4.svg";
 import skill5 from "../../images/skill5.svg";
 import {CourseCard} from "./courseCard/CourseCard";
 import {CourseType} from "../../api/types";
+import c from '../../styles/CommonStyles.module.css';
 
 const icons = [skill1, skill2, skill3, skill4, skill5]
 
@@ -48,22 +49,22 @@ export const Courses = () => {
   }, [option, inProgressCourses, upcomingCourses])
 
   return (
-    <div className={s.wrapper}>
-      <div className={`${s.container} ${s.content}`}>
-        <div className={s.rowContainer} style={{height: 80}}>
+    <div className={c.wrapper}>
+      <div className={`${c.container} ${c.content}`} style={{textAlign: 'left'}}>
+        <div className={c.rowContainer} style={{height: 80}}>
           <h3>Courses</h3>
-          <div className={s.selectInput}>
+          <div className={`${c.horizontalContainer}`} style={{width: '200px'}}>
             <SelectComponent currentValue={option} label={"Team"} options={['In progress', 'Upcoming']}
                              setValue={setOption}/>
           </div>
         </div>
-        <div className={`${s.container}`}>
+        <div className={`${c.container}`} style={{textAlign: 'left'}}>
           {values.map((v, index) => <CourseCard course={v}
                                                 icon={icons[index % icons.length]}/>
           )}
         </div>
       </div>
-      <div className={`${s.container} ${s.additionalData}`}>
+      <div className={`${s.container} ${c.additionalData}`}>
         <h3>Skills in development</h3>
         {skillsInDev.map((skill, index) => {
           return (

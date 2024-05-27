@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import s from './CardGallery.module.css';
-import {EmployeeCard} from "../../Dashboard/employeeCard/EmployeeCard";
+import {EmployeeCard} from "../../../common/employeeCard/EmployeeCard";
 import {EmployeesWithIdNPhotoType} from "../../../api/types";
 
 type PropsType = {

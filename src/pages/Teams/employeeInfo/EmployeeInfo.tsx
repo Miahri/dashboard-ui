@@ -1,13 +1,13 @@
 import React, {FC} from 'react';
 import s from "./EmployeeInfo.module.css";
-import {ItemWithBar} from "../../Dashboard/itemWithBar/ItemWithBar";
+import {ItemWithBar} from "../../../common/itemWithBar/ItemWithBar";
 import skill1 from "../../../images/skill1.svg";
 import skill2 from "../../../images/skill2.svg";
 import skill3 from "../../../images/skill3.svg";
 import skill4 from "../../../images/skill4.svg";
 import skill5 from "../../../images/skill5.svg";
 import {EmployeesWithIdNPhotoType} from "../../../api/types";
-import commonStyles from '../../../styles/CommonStyles.module.css';
+import c from '../../../styles/CommonStyles.module.css';
 
 type PropsType = {
   employee: EmployeesWithIdNPhotoType | null
@@ -21,8 +21,8 @@ export const EmployeeInfo: FC<PropsType> = ({employee, setSelectedEmp}) => {
     <>{employee ? <>
       <button onClick={() => setSelectedEmp('')}>x</button>
       <p className={s.empTitle}>{employee.title}</p>
-      <div className={commonStyles.divider}></div>
-      <div className={s.progressData}>
+      <div className={s.divider}></div>
+      <div className={c.progressData} style={{margin: '20px'}}>
         <img src={employee.photo} alt={'ava'} className={s.empPhoto}/>
         <h3>{employee.name}</h3>
         <p className={s.empEmail}>{employee.email}</p>
@@ -33,7 +33,7 @@ export const EmployeeInfo: FC<PropsType> = ({employee, setSelectedEmp}) => {
                        value={employee.lessons_taken}/>
         </div>
       </div>
-      <div className={commonStyles.divider}></div>
+      <div className={s.divider}></div>
       <div>
         <h6>Skills</h6>
         {employee.skills_being_developed.map((skill, index) => {

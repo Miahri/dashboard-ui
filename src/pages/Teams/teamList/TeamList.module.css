@@ -1,24 +1,5 @@
-.rowContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.selectInput {
-    width: 420px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .view {
     width: 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 10px;
 }
 
@@ -35,29 +16,6 @@
 .allBtn:hover,
 .allBtn:active {
     background-color: lightgray;
-}
-
-.container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.content {
-    grid-area: content;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    margin: 0 30px;
-}
-
-.additionalData {
-    grid-area: additionalData;
-    padding: 20px 10px;
-    margin: 0;
-    background-color: lightgray;
-    box-sizing: border-box;
 }
 
 h3 {
@@ -81,9 +39,4 @@ h3 {
     background-color: #f5f4f9;
     color: #212A34;
     border-color: #5954AF;
-}
-
-.input {
-    width: 250px;
-    align-items: center;
 }

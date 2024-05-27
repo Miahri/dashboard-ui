@@ -20,6 +20,7 @@ import photo12 from "../../../images/photo12.jpg";
 import {v1} from 'uuid';
 import {EmployeeInfo} from "../employeeInfo/EmployeeInfo";
 import {TeamInfo} from "../teamInfo/TeamInfo";
+import c from '../../../styles/CommonStyles.module.css';
 
 const images = [`${photo1}`, `${photo2}`, `${photo3}`, `${photo4}`, `${photo5}`, `${photo6}`,
   `${photo7}`, `${photo8}`, `${photo9}`, `${photo10}`, `${photo11}`, `${photo12}`];
@@ -137,21 +138,21 @@ export const TeamList: FC<PropsType> = ({
 
   return (
     <>
-      <div className={`${s.container} ${s.content}`}>
-        <div className={s.rowContainer}>
-          <div className={s.selectInput} style={{width: "250px"}}>
+      <div className={`${c.container} ${c.content}`}>
+        <div className={c.rowContainer}>
+          <div className={`${c.horizontalContainer}`} style={{width: "250px"}}>
             <h3>Teams</h3>
             <button className={s.addTeamBtn}>Add new team</button>
           </div>
         </div>
-        <div className={s.rowContainer} style={{height: 80}}>
-          <div className={s.selectInput}>
+        <div className={c.rowContainer} style={{height: 80}}>
+          <div className={`${c.horizontalContainer}`} style={{width: "420px"}}>
             <SelectComponent currentValue={selectedTeam} label={"Team"} options={teamsTitles}
                              setValue={setSelectedTeam}/>
             <SelectComponent currentValue={selectedPos} label={"Position"} options={empsPositions}
                              setValue={setSelectedPos}/>
           </div>
-          <div className={s.view}>
+          <div className={`${c.horizontalContainer} ${s.view}`}>
             <button className={s.allBtn} onClick={toggleTableList}>ALL</button>
             <ViewToggle alignment={alignment} setAlignment={setAlignment}/>
           </div>
@@ -162,7 +163,7 @@ export const TeamList: FC<PropsType> = ({
               <EnhancedTable tableData={filteredEmployees} setSelected={setSelectedEmp}/> : ''}
         </div>
       </div>
-      <div className={`${s.container} ${s.additionalData}`}>
+      <div className={`${c.container} ${c.additionalData}`}>
         {content}
       </div>
     </>
